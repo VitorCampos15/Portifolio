@@ -1,0 +1,184 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  /* Efeitos de fade-in */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .section.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Cabeçalho */
+  .header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header .foto img {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  .header h1 {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5em;
+  }
+  
+  /* Apresentação */
+  .presentation-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .presentation-content i {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .presentation-content p {
+    margin-top: 10px;
+  }
+  
+  /* Menu de Navegação */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background: #555;
+  }
+  
+  /* Seções */
+  .section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Habilidades */
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skill {
+    flex: 1 1 45%;
+    background: #f9f9fb;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skill i {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* Projetos */
+  #project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project {
+    flex: 1 1 45%;
+    background: #eaeaf1;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Rodapé */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+  }
+/* Estilo para a seção de Experiência */
+.experience {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9fb;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .experience h3 i {
+    margin-right: 10px;
+    color: #444;
+  }
+  
+  .experience p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .experience ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .experience ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    color: #333;
+  }
+    
